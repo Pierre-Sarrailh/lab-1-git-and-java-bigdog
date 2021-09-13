@@ -18,10 +18,9 @@ public class IntroLabTest {
     }
 
     @Test(timeout = 10)
-    public void testExampleStudent() {
-        String expected = "Hello! My name is Stu Dent! " +
-                "I like cats more than dogs! Welcome to CSC207!";
-        String actual = IntroLab.exampleStudent();
+    public void testSarrailh() {
+        String expected = "oi! My name is Pierre S! I like cats more than dogs! Welcome to CSC207!";
+        String actual = IntroLab.sarrailh();
         assertEquals(expected, actual);
     }
 
